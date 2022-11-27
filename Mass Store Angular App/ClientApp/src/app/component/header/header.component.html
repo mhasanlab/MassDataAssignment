@@ -1,0 +1,19 @@
+<header>
+    <div class="navbar navbar-dark bg-primary shadow-sm">
+        <div class="navbar-brand align-item-center d-flex">
+            
+            <fa-icon [icon]="faTruckFast" class="topLogo"></fa-icon>&nbsp;
+            <strong style="font-size: 30px;">MassStore</strong>
+           
+            <div class="form-group">
+                <input type="text" class="form-control" [(ngModel)]="searchTerm" (keyup)="search($event)" placeholder="search products">
+            </div>
+            
+
+        </div>
+        <button routerLink="cart" class="btn btn-primary">
+            <fa-icon [icon]="faCartPlus" class="topLogo"></fa-icon>
+            <div style="font-size: 10px;" class="badge bg-danger">{{totalItem}}</div>
+        </button>
+    </div>
+</header>
