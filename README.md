@@ -15,4 +15,5 @@ https://codesklab-my.sharepoint.com/:v:/g/personal/mainul_codesklab_onmicrosoft_
 * Font Awesome Icon
 * Live Web API
 ** API Link: https://fakestoreapi.com/
+** Json Server API: https://mass-data-food-api.herokuapp.com/
 
